@@ -12,6 +12,7 @@ public class Main {
         dog.name = "max";
 
 
+        System.out.println("elooooo");
 
 
 
