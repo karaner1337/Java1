@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.File;
 
-public class lololo {
+public class Animal {
     final static Double DEFAULT_WEIGHT_DOG =4.0;
     final static Double DEFAULT_WEIGHT_MOUSE =4.0;
     final static Double DEFAULT_WEIGHT_LION =4.0;
@@ -11,7 +11,7 @@ public class lololo {
     private Double weight;
     File pic;
 
-    public lololo(String species) {
+    public Animal(String species) {
         this.species = species;
 
         if(this.species == "dog"){

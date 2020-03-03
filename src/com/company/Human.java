@@ -6,7 +6,9 @@ public class Human {
     public String firstName;
     public String lastName;
     protected Phone mobile;
-    public lololo pet;
+    public Animal pet;
     private Double salary;
+    Car car;
+
 
 }

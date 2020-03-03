@@ -8,11 +8,17 @@ public class Main {
         Human me = new Human();
         me.firstName = "Grzegorz";
         me.lastName = "Lewandowski";
-        lololo dog = new lololo(  "dog");
+        Animal dog = new Animal(  "dog");
         dog.name = "max";
 
 
-        System.out.println("elooooo");
+        Car wolf = new Car();
+        wolf.producer = "Audi";
+        wolf.model = "rs3";
+        wolf.Yearofproduction = 2019;
+        wolf.platets = "G1 WOLF";
+
+        System.out.println("me.car.plates");
 
 
 
